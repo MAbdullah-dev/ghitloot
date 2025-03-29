@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('raffle_id')->constrained('raffles')->onDelete('cascade');
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
-            $table->foreignId('ticket_id')->constrained('tickets')->onDelete('cascade');
+            $table->foreignId('ticket_id')->constrained('user_tickets')->onDelete('cascade');
             $table->string('prize')->nullable();
             $table->timestamp('awarded_at')->useCurrent();
             $table->timestamps();
