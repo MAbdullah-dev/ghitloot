@@ -1,0 +1,196 @@
+.login .inner {
+    height: 100vh;
+    width: 100%;
+    /* Changed from 100vw to 100% */
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+}
+
+.cover-image {
+    height: 100vh;
+    width: 100%;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.login-options {
+    height: 100vh;
+    width: 100%;
+
+    p {
+        width: 70%;
+        max-width: 100%;
+    }
+
+    .option-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+.login-btn {
+    width: 80%;
+    max-width: 450px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-btn img {
+    height: 24px;
+    position: absolute;
+    left: 15px;
+}
+
+.google-btn {
+    background: white;
+    color: black;
+}
+
+.X-btn {
+    background: black;
+    border: 1px solid white;
+}
+
+.discord-btn {
+    background: #5865F2;
+}
+
+.text-red {
+    color: red;
+}
+
+.google-btn:hover {
+    background: #e0e0e0;
+    color: black;
+}
+
+.X-btn:hover {
+    background: #333;
+}
+
+.discord-btn:hover {
+    background: #4854d7;
+}
+
+.intro-section .inner {
+    background-color: #1B1B1B;
+    height: 80vh;
+    width: 100%;
+
+    .bg-img {
+        top: 50px;
+        width: 25%;
+        left: 30%;
+    }
+}
+
+.commitment-section {
+    /* text-align: center; */
+    padding: 50px 20px;
+    background: #ffffff;
+}
+
+.commitment-section {
+    h2 {
+        font-weight: bold;
+        color: #262626;
+    }
+
+    p {
+        color: #262626;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 300;
+    }
+
+    .icon-box {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .icon-box img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-box p {
+        /* font-weight: bold; */
+        font-size: 18px;
+        font-weight: 400;
+        color: #FE3839;
+        margin-top: 10px;
+    }
+
+}
+
+.btn-custom {
+    background-color: #FE3839;
+    color: white;
+    border: none;
+    padding: 16px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #c72c3b;
+}
+
+.gamification-section {
+    background-color: #1B1B1B;
+
+    .inner {
+        padding: 100px 20px;
+    }
+
+}
+
+.gamification-section .game-box img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.gamification-section h6 {
+    font-size: 20px;
+    color: #C8C8C8;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.community-section {
+    background-color: #ffffff;
+    padding: 120px 0;
+    text-align: left;
+    h6{
+        font-weight: 400;
+    }
+    h2{
+        color: #262626;
+
+    }
+
+    p {
+        color: #262626;
+    }
+}
