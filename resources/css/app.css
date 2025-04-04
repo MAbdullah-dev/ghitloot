@@ -1,7 +1,7 @@
 @import "node_modules/bootstrap/dist/css/bootstrap.min.css";
 /* Load Bootstrap First */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import "login.css";
+@import "main.css";
 /* Other styles after Bootstrap */
 @import "global.css";
 /* Custom styles after Bootstrap */
